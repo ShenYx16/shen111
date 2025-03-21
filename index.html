@@ -4,7 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>个人简介</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* 基本样式 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            background-image: url('images/background.jpg');
+            background-size: cover;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 0.5rem;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        section h2 {
+            color: #333;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -21,7 +88,8 @@
     <main>
         <section id="about">
             <h2>个人简介</h2>
-            <p>你好，我是一名研究生，专注于微生物学。</p>
+            <p>我是一名生态学研究生，专注于微生物学。平时喜欢打台球。</p>
+            <img src="images/profile.jpg" alt="个人头像" width="200">
         </section>
         <section id="education">
             <h2>教育经历</h2>
@@ -31,14 +99,12 @@
                     <p>毕业年份：2023</p>
                     <p>专业：环境科学</p>
                 </li>
-                <!-- 可以根据需要添加更多教育经历 -->
             </ul>
         </section>
         <section id="honors">
             <h2>曾获荣誉</h2>
             <ul>
                 <li>全国大学生英语四六级 - 2022</li>
-                <!-- 可以根据需要添加更多荣誉 -->
             </ul>
         </section>
         <section id="contact">
